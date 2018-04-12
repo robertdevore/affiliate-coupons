@@ -519,7 +519,7 @@ function affcoups_the_coupon_types( $coupon_id = null ) {
         foreach($term_list as $term_single) {
             echo '<span class="affcoups-type affcoups-type--' . esc_html( $term_single->slug ) . '">';
             echo esc_attr( $term_single->name );
-            echo esc_attr( '</span>' );
+            echo '</span>';
         }
     }
 
